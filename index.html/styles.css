@@ -291,17 +291,19 @@ h4{text-align: center;}
   background-color: #EFEEEA;
   
 }
-input{height: 40px;
-margin-left: 1%;}
-footer{background-image: url(./Grey-Wave-PNG-Transparent-Image.png);}
-
-.foot{
-align-items: center;
-margin-left: 38%;
-}
 .map{width: 150%;
   padding-top:20%;
 }
+input{height: 40px;
+margin-left: 1%;}
+footer{background-image: url(./Abstract-Grey-DNA-Molecular-Structure-Animated-Background-.gif);
+background-size:initial;}
+
+.foot{
+align-items: baseline;
+margin-left: 38%;
+}
+
 
 
 @media screen and (max-width: 1400px) {
@@ -588,3 +590,100 @@ margin-left: -65%;
 }
 .skillimg{width: 25%;}
 }
+@media screen and (max-width: 540px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  .map{padding-bottom:200px;
+  height: 30px;}
+  input{height: 15px;
+    width: 150%;
+    margin-left: 1%;}
+  
+
+#contact{
+
+  justify-content: left;
+  align-items:start;
+  display: grid;
+  grid-template-columns:50% ;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  width: 95%;
+  background-color: #EFEEEA;
+  padding: 2%;
+  
+}
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 2rem;
+}
+
+.nav-link{
+margin-left: -65%;
+}
+.map{height: 60px;}
+.skillimg{width: 25%;}
+
+footer{background-image: url(./Abstract-Grey-DNA-Molecular-Structure-Animated-Background-.gif);
+  background-size:initial;
+height: 120px;}
+  
+  .foot{
+  align-items: baseline;
+  margin-left: 38%;
+  }
+  .nav-link{margin-left:-88px;}}
