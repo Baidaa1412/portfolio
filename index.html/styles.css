@@ -328,6 +328,12 @@ margin-left: 38%;
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
+  }}
+  
+@media screen and (max-width:900px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
   }
   .about-containers {
     flex-wrap: wrap;
@@ -445,10 +451,7 @@ margin-left: 38%;
 }
 
 
-@media (max-width: 1200px){
-  .skillimg{width: 12%;
-  }
-}
+
 @media (max-width: 768px) {
   .toggle-menu:checked ~ .nav-links ul {
     display: flex;
@@ -716,3 +719,18 @@ height: 120px;}
   }
   h2{margin-top: 25%;}
  }
+
+ @media screen and (max-width:300px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  .sec{display: flex;
+    gap: 15%;
+    align-items: center;}
+   #Education{margin-top: 99%;}
+   .ski{margin-top: 100%;}
+}
